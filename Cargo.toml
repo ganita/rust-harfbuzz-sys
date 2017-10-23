@@ -1,0 +1,14 @@
+[package]
+name = "harfbuzz-sys"
+version = "0.1.0"
+authors = ["Sreejith Krishnan R <sreejith@ganita.io>"]
+
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+freetype-sys = { git = "https://github.com/ganita/rust-freetype-sys" }
+
+[build-dependencies]
+pkg-config = "0.3"
+cmake = "0.1"
