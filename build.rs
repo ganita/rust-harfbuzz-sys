@@ -29,6 +29,9 @@ fn main() {
     {
         cmd.define("HB_HAVE_CORETEXT", "ON");
         println!("cargo:rustc-link-lib=framework=CoreFoundation");
+        println!("cargo:rustc-link-lib=framework=CoreGraphics");
+        println!("cargo:rustc-link-lib=framework=CoreText");
+        println!("cargo:rustc-link-lib=dylib=c++")      
     }
 
     let dest = cmd.build();
