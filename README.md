@@ -1,9 +1,9 @@
-## Harfbuzz Rust
+# Harfbuzz Rust
 
 Unsafe rust bindings for harfbuzz. Bindings are generated
 using bindgen.
 
-### Example
+## Example
 
 ```rust
 extern crate harfbuzz_sys;
@@ -54,5 +54,5 @@ fn main() {
 
 See full example in `examples/ot_math_constants.rs`
 
-### License
+## License
 Apache License 2.0. See `LICENSE.md`.
