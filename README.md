@@ -1,6 +1,6 @@
 ## Harfbuzz Rust
 
-Unsafe harfbuzz bindings for rust. Bindings are generated
+Unsafe rust bindings for harfbuzz. Bindings are generated
 using bindgen.
 
 ### Example
