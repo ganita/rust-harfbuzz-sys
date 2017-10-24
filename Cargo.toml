@@ -9,6 +9,13 @@ build = "build.rs"
 libc = "0.2"
 freetype-sys = { git = "https://github.com/ganita/rust-freetype-sys" }
 
+[dev-dependencies]
+clap = "*"
+
 [build-dependencies]
 pkg-config = "0.3"
 cmake = "0.1"
+
+[[example]]
+name = "ot_math_constants"
+path = "examples/ot_math_constants.rs"
